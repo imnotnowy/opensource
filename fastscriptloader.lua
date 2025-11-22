@@ -1,3 +1,5 @@
+local cumonmyass = string.lower(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name)
+if string.find(cumonmyass, "baseplate", 1, true) then return end
 wait(2.5)
 local script = [[
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/imnotnowy/obsireworked/main/Library.lua"))()
