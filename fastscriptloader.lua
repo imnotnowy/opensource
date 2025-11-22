@@ -38,4 +38,5 @@ added wait because forsaken —n
 should we release it to the public? —n
 we SHOULD release on- i mean sure —f
 get the fuck out gng🥀🥀 —n
+i added a check so if the game is baseplate it won't load —n
 ]])
