@@ -1,6 +1,8 @@
 --[[
 PLEASE DON'T USE THIS, ALL I DID WAS REMOVE ONE NOTIFY FUNCTION
 (when you use hideiy it wont show notification)
+original script & credits to:
+EdgeIy
 ]]
 if IY_LOADED and not _G.IY_DEBUG == true then
     -- error("Infinite Yield is already running!", 0)
