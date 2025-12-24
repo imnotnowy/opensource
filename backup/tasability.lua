@@ -21,7 +21,7 @@ AHKConnection does not work well unless compiled
 ]]
 
 -- Config
-local FPS = 90 -- Put whatever FPS you want here, changes fps cap for the tas.
+local FPS = getgenv().TasFPS or 90 -- Put whatever FPS you want here, changes fps cap for the tas.
 local PlaybackInputs = true -- Sets if you want replays to playback your inputs when playing them (AHK connection is required for mouse scroll playback)
 local PlaybackMouseLocation = false -- Sets if you want replays to move your mouse when playing them (glitchy when loading checkpoints)
 local RoundDigits = 5 -- Rounds all numbers when writing, to greatly decrease file size (set to 50 to disable rounding)
@@ -2972,3 +2972,4 @@ end
 
 ConsoleMessage("Tasability",Version,"loaded in",RoundNumber(tick()-ExecutionTick,2),"seconds")
 ConsoleMessage("Type help to see all commands")
+
